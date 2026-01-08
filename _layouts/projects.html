@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div>
+<div class="main__project">
     {% for project in site.projects %}
-    <div>
+    <div class="main__project">
         <h2>{{ project.title }}</h2>
-        <img src="{{ project.image }}" alt="{{ }}" />
+        <img src="{{ project.image }}" alt="" />
         <p>{{ project.content }}</p>
         {% endfor %}
     </div>

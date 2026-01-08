@@ -18,6 +18,20 @@ body {
 }
 
 .header {
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
     padding: 2%;
     background-color: rgb(2 6 23);
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.main__project {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
