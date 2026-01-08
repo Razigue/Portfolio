@@ -13,10 +13,14 @@
         <link rel="stylesheet" href="/assets/main.css" />
     </head>
 
-    <body>
+    <body style="background-color: rgb(15 23 42); color: white">
         {% include header.html %}
 
-        <main>{{ content }}</main>
+        <main
+            style="display: flex; justify-content: center; flex-direction: row"
+        >
+            {{ content }}
+        </main>
 
         {% include footer.html %}
     </body>

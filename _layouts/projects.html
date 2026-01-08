@@ -2,9 +2,25 @@
 layout: default
 ---
 
-<div class="main__project">
+<div
+    style="
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    "
+    class="main__project"
+>
     {% for project in site.projects %}
-    <div class="main__project">
+    <div
+        class="main__project"
+        style="
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        "
+    >
         <h2>{{ project.title }}</h2>
         <img src="{{ project.image }}" alt="" />
         <p>{{ project.content }}</p>
