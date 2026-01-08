@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Accueil
-permalink: /about/
+permalink: Portfolio/about/
 ---
 
 ## Formation
