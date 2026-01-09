@@ -16,7 +16,12 @@
     <body>
         {% include header.html %}
 
-        <main class="hero">{{ content }}</main>
+        <main class="hero">
+            <div class="hero__div">
+                <img class="hero__div-img" />
+                <div class="hero__div-content">{{ content }}</div>
+            </div>
+        </main>
 
         {% include footer.html %}
     </body>

@@ -11,16 +11,18 @@
         />
 
         <link rel="stylesheet" href="/assets/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
     </head>
 
-    <body style="background-color: rgb(15 23 42); color: white">
+    <body>
         {% include header.html %}
 
-        <main
-            style="display: flex; justify-content: center; flex-direction: row"
-        >
-            {{ content }}
-        </main>
+        <main>{{ content }}</main>
 
         {% include footer.html %}
     </body>
