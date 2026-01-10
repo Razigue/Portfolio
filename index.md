@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Accueil
+layout: home
+title: Mon portfolio
+subtitle: Développeur web, projets, compétences et contact.
+avatar: /assets/images/moi.png
 permalink: /
 ---
-
-Hey, je suis Razigue BenHmida, apprenti développeur web fullstack

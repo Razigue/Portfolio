@@ -10,19 +10,12 @@
             content="{{ page.description | default: site.description }}"
         />
 
-        <link rel="stylesheet" href="assets/main.css" />
+        <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
     </head>
 
     <body>
         {% include header.html %}
-
-        <main class="hero">
-            <div class="hero__div">
-                <img class="hero__div-img" />
-                <div class="hero__div-content">{{ content }}</div>
-            </div>
-        </main>
-
+        <main>{{ content }}</main>
         {% include footer.html %}
     </body>
 </html>

@@ -1,6 +1,8 @@
 ---
-layout: default
-title: Accueil
+layout: about
+title: À propos
+avatar: /assets/images/moi.png
+subtitle: Développeur web en formation
 permalink: /about/
 ---
 
@@ -10,16 +12,23 @@ Epitech cursus web@cademy
 
 ## À propos de moi
 
-Avant epitech j'ai travaillé dans divers job alimentaire et restauration jusqu'à ce que l'IA générative se démocratise, c'est alors que j'y ai vu une opportunité de me lancer dans l'auto-entreprenariat, j'ai découvert le développement web en créant mes projets perso et j'ai tout de suite accroché à ce domaine, ce qui m'a donné envie d'en faire ma profession
+Avant Epitech, j’ai travaillé dans divers emplois alimentaires et de restauration.  
+Avec la démocratisation de l’IA et des modèles de diffusion tel que midjourney, j’y ai vu une opportunité de me lancer dans l’auto-entreprenariat.
+
+C’est à ce moment-là que j’ai découvert le développement web en créant mes projets personnels.  
+J’ai rapidement accroché à ce domaine, ce qui m’a donné envie d’en faire ma profession.
 
 ## Compétences
 
--   HTML, CSS, JS, PHP
+-   HTML
+-   CSS
+-   JavaScript
+-   PHP
 
-# Qualités
+## Qualités
 
 -   Curieux
 
-# Langues
+## Langues
 
 -   Anglais (niveau courant)

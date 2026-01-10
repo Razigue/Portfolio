@@ -1,13 +1,11 @@
 ---
-layout: projects
-title: Intégration Figma
-description: Intégration responsive d’une maquette Figma.
-image: /assets/img/figma.png
-technos:
+title: Intégration maquette Figma
+description: Intégration fidèle d’une maquette Figma
+repo: https://github.com/Razigue/site-statique
+demo: https://razigue.github.io/site-statique/
+tech:
     - HTML
     - CSS
-    - Responsive
-    - Tailwind
 ---
 
 Projet réalisé dans le cadre de ma formation.

@@ -1,12 +1,10 @@
 ---
-layout: projects
-title: Introducton à Tailwind
-description: Intégration responsive d’une maquette Figma.
-image: /assets/img/figma.png
-technos:
+title: Introduction Tailwind
+description: Reprise du site avec un thème libre en utilisant Tailwind CSS.
+repo: https://github.com/Razigue/site-statique-tailwind
+demo: https://razigue.github.io/site-statique-tailwind/
+tech:
     - HTML
-    - CSS
-    - Responsive
     - Tailwind
 ---
 

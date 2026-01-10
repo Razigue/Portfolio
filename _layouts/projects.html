@@ -2,10 +2,29 @@
 layout: default
 ---
 
-{% for project in site.projects %}
-<div class="main__project">
-    <h2>{{ project.title }}</h2>
-    <img src="{{ project.image }}" alt="" />
-    <p>{{ project.content }}</p>
-    {% endfor %}
-</div>
+<section class="projects">
+    <div class="projects-container">
+        <h1>{{ page.title }}</h1>
+
+        <div class="projects-grid">
+            {% for project in site.projects %}
+            <article class="project-card">
+                <h2>{{ project.title }}</h2>
+
+                <p class="project-desc">{{ project.description }}</p>
+
+                <ul class="project-tech">
+                    {% for tech in project.tech %}
+                    <li>{{ tech }}</li>
+                    {% endfor %}
+                </ul>
+
+                <div class="project-links">
+                    <a href="{{ project.repo }}" target="_blank">Repo</a>
+                    <a href="{{ project.demo }}" target="_blank">Live</a>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>

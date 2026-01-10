@@ -2,11 +2,22 @@
 layout: default
 ---
 
-<div>
-    <h1>{{ page.title }}</h1>
-    <form action="#">
-        <label> Email <input type="email" placeholder="votre email" /> </label>
-        <label> message <textarea></textarea></label>
-        <button type="submit">Envoyer</button>
-    </form>
-</div>
+<section class="contact">
+    <div class="contact-container">
+        <h1>{{ page.title }}</h1>
+        <label class="contact-field">
+            <span>Nom</span>
+            <input type="text" />
+        </label>
+
+        <label class="contact-field">
+            <span>Email</span>
+            <input type="email" />
+        </label>
+
+        <label class="contact-field">
+            <span>Message</span>
+            <textarea></textarea>
+        </label>
+    </div>
+</section>
