@@ -1,4 +1,4 @@
-# # <p align="center">Portfolio Jekyll</p>
+# <p align="center">Portfolio Jekyll</p>
 
 ## Links
 - [Portfolio](https://razigue.github.io/Portfolio/)
