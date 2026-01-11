@@ -4,5 +4,5 @@
 - [Portfolio](https://razigue.github.io/Portfolio/)
 
 
-## 🙇 Author
+## Author
 - Github: [@Razigue](https://github.com/Razigue)
