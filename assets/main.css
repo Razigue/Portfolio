@@ -16,6 +16,10 @@ body {
     background: linear-gradient(135deg, #f7f5f2, #f3e8e2, #eef1f6);
     color: #111;
 }
+.hero {
+    padding-top: 120px;
+    height: 100vh;
+}
 /*header */
 .header__nav-ul a {
     color: #111;
@@ -52,10 +56,10 @@ body {
 }
 /* acceuil */
 .home {
-    height: 100vh;
     display: flex;
-    align-items: center;
+    height: 80vh;
     justify-content: center;
+    align-items: center;
 }
 
 .home-background {
@@ -103,7 +107,6 @@ body {
 }
 /* à propos */
 .about {
-    padding-top: 120px;
     display: flex;
     justify-content: center;
 }
@@ -128,7 +131,6 @@ body {
 }
 /* projets */
 .projects {
-    padding-top: 120px;
     display: flex;
     justify-content: center;
 }
@@ -175,7 +177,6 @@ body {
 .contact {
     display: flex;
     justify-content: center;
-    padding-top: 120px;
 }
 
 .contact-container {
