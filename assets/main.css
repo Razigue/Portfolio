@@ -147,7 +147,7 @@ body {
     flex-direction: column;
     flex-grow: 1;
     flex-basis: 280px;
-    background: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.5);
     border: 1px solid rgb(255, 255, 255);
     backdrop-filter: blur(10px);
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
@@ -182,6 +182,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 24px;
 }
 
 .contact-field {
@@ -198,4 +204,14 @@ body {
 
 .contact-field textarea {
     height: 140px;
+}
+.contact-submit {
+    padding: 0.85rem 1rem;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.027);
+    background: rgba(0, 0, 0, 0.877);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
