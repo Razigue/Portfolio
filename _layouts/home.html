@@ -4,14 +4,17 @@ layout: default
 
 <section class="home">
     <div class="home-content">
-        <img
-            class="home-avatar"
-            src="{{ page.avatar | relative_url }}"
-            alt="{{ page.title }}"
-        />
+        <div class="home-text">
+            <h1 class="home-title">{{ page.title }}</h1>
 
-        <h1 class="home-title">{{ page.title }}</h1>
-
-        <p class="home-subtitle">{{ page.subtitle }}</p>
+            <p class="home-subtitle">{{ page.subtitle }}</p>
+        </div>
+        <div class="home-image">
+            <img
+                class="home-avatar"
+                src="{{ page.avatar | relative_url }}"
+                alt="{{ page.title }}"
+            />
+        </div>
     </div>
 </section>
